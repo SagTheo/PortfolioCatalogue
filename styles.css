@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: white;
+    background-color: rgb(14, 14, 67);
+}
+
+/* 
+
+Presentation section
+
+*/
+
+.presentation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.presentation div p {
+    color: tomato;
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+.skills {
+    text-align: center;
+    margin-top: 30%;
+}
+
+.skills h1 {
+    font-size: 4rem;
+}
+
+.skills ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.skills ul li {
+    font-size: 1.5rem;
+}
+
+.profilePic {
+    width: 900px;
+    height: 900px;
+    margin-top: 5%;
+} 
+
+/* 
+
+Catalogue section
+
+*/
+
+.catalogue {
+    min-height: 100vh;
+}
+
+.catalogue h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.catalogue h3 {
+    font-size: 2rem;
+    color: tomato;
+}
+
+.catalogue > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.section:first-of-type {
+    margin-left: 1rem;
+}
+
+.section div {
+    margin-bottom: 1rem;
+    padding: 5px;
+}
+
+.section div a:nth-child(1) {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 3rem;
+}
+
+.section div a:nth-child(1):hover {
+    background-color: gainsboro;
+    color: tomato;
+    padding: 0.3rem;
+    border-radius: 5px;
+}
+
+.section div a img {
+    transform: translateY(2px);
+}
